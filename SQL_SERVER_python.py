@@ -1,12 +1,8 @@
 import pyodbc
 import pandas as pd
-
-server = 'DESKTOP-1ILKVVQ\SQLEXPRESS'
-database = 'Youtube'
-driver= '{SQL Server}'
             
 conn = pyodbc.connect('Driver={SQL Server};'
-                      'Server=DESKTOP-1ILKVVQ\SQLEXPRESS;'
+                      'Server=DESKTOP-1LCCVB\SQLEXPRESS;'
                       'Database=Youtube;'
                       'Trusted_Connection=yes;')
 
