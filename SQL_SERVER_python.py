@@ -3,7 +3,7 @@ import pyodbc
 import pandas as pd
 
 # sql file path
-sql_file = open("E:\Projects\SQL-SERVER-Connection-with-Python\SQL_query.sql")
+sql_file = open("E:\\Projects\\SQL-SERVER-Connection-with-Python\\SQL_query.sql")
 
 # converting query in string
 sql_as_string = sql_file.read().replace('\n',' ')
