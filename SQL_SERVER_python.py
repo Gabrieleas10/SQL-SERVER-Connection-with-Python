@@ -10,7 +10,7 @@ sql_as_string = sql_file.read().replace('\n',' ')
 
 # connecting in SQL SERVER
 conn = pyodbc.connect('Driver={SQL Server};'
-                      'Server=DESKTOP-1LCCVB\SQLEXPRESS;'
+                      'Server=DESKTOP-1LCCVB\\SQLEXPRESS;'
                       'Database=Youtube;'
                       'Trusted_Connection=yes;')
 
